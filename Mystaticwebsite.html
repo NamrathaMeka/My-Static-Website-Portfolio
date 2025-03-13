@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Mystaticwebsite.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome" class="padding">
+        <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" />
+        <h4 class="title">My Projects</h4>
+        <p class="description">These are few of my Static Webiste projects that I have developed using HTML, CSS and Bootstrap</p>
+        <div class="d-flex flex-row">
+            <img class="image-icon" onclick="display('sectiontech')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" />
+            <img class="image-icon" onclick="display('sectiondiwali')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" />
+        </div>
+        <div class="d-flex flex-row">
+            <img class="image-icon" onclick="display('sectionfood')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" />
+            <img class="image-icon" onclick="display('sectionnews')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" />
+        </div>
+    </div>
+    <div id="sectiontech">
+        <div class=" bg1-container  d-flex flex-column justify-content-end">
+            <div class="bottom-card-container ">
+                <h1 class="heading">Advanced Technologies</h1>
+                <p class="pa"> Machinery and equipment developed from the application of scientific knowledge.</p>
+                <div class="d-flex flex-row ">
+                    <button class="button-1">Learn More</button>
+                    <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sectiondiwali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary">View More</button>
+            <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionfood">
+        <div class="bg-image d-flex flex-column justify-content-end">
+            <div class="bottom-card">
+                <h1 class="text"> Happy Meals</h1>
+                <p class="text">Discover the best foods over the 1,000 restaurants </p>
+                <div>
+                    <button class="btn btn-light"> Book Now</button>
+                    <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionnews">
+        <div class="bg2-container d-flex flex-column justify-content-end">
+            <div class="bottom-card-container10">
+                <h1 class="heading1">NEWS OF THE DAY</h1>
+                <p class="heading2">iB Cricket announces world's first virtual reality cricket league</p>
+                <p class="pa">
+                    iB Virtual Cricket is an innovative simulation platform that replicates real-world cricket dynamics using advanced algorithms and data analytics. This platform offers users an immersive experience by simulating cricket matches based on player statistics, pitch conditions, and team strategies. The system leverages machine learning models and predictive analysis to generate realistic match outcomes. IB Virtual Cricket has gained popularity in the realms of fantasy sports, esports, and cricket analytics.
+                </p>
+                <button class="button5">
+                    Read more
+                </button>
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
