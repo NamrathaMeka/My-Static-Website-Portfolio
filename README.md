@@ -1,6 +1,6 @@
 # Meka Static Website Portfolio
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=Meka+Static+Website+Portfolio)  
+![Project Banner](https://www.imghippo.com/i/PXg3951w.png?text=Meka+Static+Website+Portfolio)  
 *Placeholder banner - replace with a custom image if desired.*
 
 ---
