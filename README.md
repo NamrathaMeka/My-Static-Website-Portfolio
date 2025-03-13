@@ -1,8 +1,5 @@
 # Meka Static Website Portfolio
 
-![Project Banner](https://www.imghippo.com/i/PXg3951w.png?text=Meka+Static+Website+Portfolio)  
-*Placeholder banner - replace with a custom image if desired.*
-
 ---
 
 ## Overview
@@ -26,6 +23,29 @@ The live version of this project is deployed at **[mekastatic.ccbp.tech](http://
 - **External Resources**: Uses CDN-hosted libraries and CloudFront-hosted images for efficiency.
 
 ---
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)  
+*The main landing page with project icons.*
+
+### Advanced Technologies
+![Advanced Technologies](screenshots/tech.png)  
+*A tech-themed section with a modern design.*
+
+### Diwali Celebration
+![Diwali Celebration](screenshots/Diwali.png)  
+*A festive section with item cards.*
+
+### Happy Meals
+![Happy Meals](screenshots/food.png)  
+*A food-inspired section with a booking option.*
+
+### News of the Day
+![News of the Day](screenshots/news.png)  
+*A news article layout with detailed text.*
+
+---
 
 ## Technologies Used
 
@@ -41,5 +61,3 @@ The live version of this project is deployed at **[mekastatic.ccbp.tech](http://
 - **Fonts**: Google Fonts (`Bree Serif`, `Caveat`, `Roboto`, etc.) via `@import url('https://fonts.googleapis.com/css2?...')`.
 
 ---
-
-## Project Structure
